@@ -1,0 +1,66 @@
+#menu{
+    background-color:#000;
+    color:#FFF;
+    background-size:cover;
+    width:100%;		
+    }
+.test{
+    float:left;
+    margin-left:50px;
+    margin-right:100px;
+    margin-top:11px;
+    }
+#menu ul li{
+    display:inline-block;
+    margin-top:16px;
+    margin-bottom:17px;
+    }
+#menu ul li a{
+    padding:45px;
+    text-decoration: none;
+    color:#CCC;
+    }
+#menu ul li a:hover{
+    color:#FFF;
+    text-decoration: none;
+    }
+.denglu{
+    float: right;
+}
+#big{
+    width: 1600px;
+    height: 1100px;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+    margin-bottom: 100px;
+}
+#location{
+    width: 1600px;
+    height: 40px;
+    margin:10px auto; 
+}
+#center{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+#center h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#center img{
+    width: 1200px;
+    height: 375px;
+    margin-bottom: 40px;
+}
+#center p{
+    text-indent: 2em;
+    line-height: 30px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+   /* background:url(./img/0.jpg) repeat; */
+   background-size:cover;
+}
