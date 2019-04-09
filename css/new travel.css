@@ -37,8 +37,11 @@
     margin:auto;
     overflow: hidden;
 }
+.top{
+    width:1600px;
+}
 #big img{
-    
+   
     margin-bottom: 40px;
 }
 #big p{
