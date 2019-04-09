@@ -113,10 +113,11 @@ footer{
 }
 .right{
     float: right;
-    margin-top:70px;
+    margin-top:100px;
 }
 .right img{
-    width: 70px;
-    margin-left:60px;
-    margin-right:40px;
+    width: 50px;
+    height:40px;
+    margin-left:75px;
+    margin-right:50px;
 }
