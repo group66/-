@@ -119,63 +119,65 @@
 
         .select-container {
             width: 100%;
-            height: 140px;
+            height: 210px;
             overflow: hidden;
         }
 
         .wrapper {
             width: 1200px;
-            height: auto;
             margin: auto;
+            height: auto;
             position: relative;
-            /* background: green; */
         }
 
         .time {
-            padding: 10px 0;
+            padding: 15px 0;
         }
-
-        .destination {
-            padding: 10px 0;
-            position: relative;
+        .time span:nth-child(2) {
+            margin: 0 10px;
+            border-radius: 10px;
+            padding: 0 10px;
+            background: #f5f5f5;
+            color: #959595;
+            font-size: 14px;
+        }
+        .desn {
+            padding: 15px 0;
         }
 
         .time>:first-child,
-        .destination>:first-child {
+        .desn>:first-child {
             display: inline-block;
             width: 80px;
-            border-right: 1px #929292 solid;
+            border-right: 1px #ececec solid;
             margin-right: 20px;
         }
 
         hr {
             height: 0;
             border: none;
-            border-top: #929292 solid 1px;
+            border-top: #ececec solid 1px;
             box-sizing: border-box;
         }
 
-        .select-container .iteam {
+        .time .iteam,.desn .iteam {
             display: inline-block;
             width: 70px;
             text-align: center;
         }
 
-        .destination ul {
-            display: inline-block;
-        }
-
-        .destination ul li a:hover {
+        .desn  a:hover {
             font-weight: bold;
             transition: 0.3s;
+            color: black;
         }
 
-        .destination span {
+        .desn span {
             float: left;
         }
 
         .continent {
-            margin-left: 87px;
+            margin-left: 90px;
             position: absolute;
             display: none;
             margin-top: 20px;
@@ -184,11 +186,11 @@
         .continent .iteam {
             display: inline-block;
             width: 100px;
-
+            margin: 8px 0 8px 30px;
         }
 
         #HOT-btn {
-            color: red;
+            color: black;
             font-weight: bold;
         }
 
@@ -210,7 +212,6 @@
         .card-container {
             width: 100%;
             height: auto;
-            /* background: yellow; */
             padding-top: 20px;
             overflow: hidden;
         }
@@ -359,7 +360,7 @@
         <div class="wrapper">
             <div class="time">
                 <span>出发时间</span>
-                <span>2019</span>
+                <span>2019年</span>
                 <a href="" class="iteam">4月</a>
                 <a href="" class="iteam">5月</a>
                 <a href="" class="iteam">6月</a>
@@ -367,17 +368,17 @@
                 <a href="" class="iteam">8月</a>
             </div>
             <hr>
-            <div class="destination">
+            <div class="desn">
                 <span>目的地</span>
-                <ul>
-                    <li><a href="" class="iteam" id="HOT-btn" onmouseover="showContinent()">热门</a></li>
-                    <li><a href="" class="iteam" id="EU-btn" onmouseover="showContinent()">欧洲</a></li>
-                    <li><a href="" class="iteam" id="AS-btn" onmouseover="showContinent()">亚洲</a></li>
-                    <li><a href="" class="iteam" id="NA-btn" onmouseover="showContinent()">北美洲</a></li>
-                    <li><a href="" class="iteam" id="OA-btn" onmouseover="showContinent()">大洋洲</a></li>
-                    <li><a href="" class="iteam" id="SA-btn" onmouseover="showContinent()">南美洲</a></li>
-                    <li><a href="" class="iteam" id="AF-btn" onmouseover="showContinent()">非洲</a></li>
-                </ul>
+                <a href="" class="iteam" id="HOT-btn" onmouseover="showContinent()">热门</a>
+                <a href="" class="iteam" id="EU-btn" onmouseover="showContinent()">欧洲</a>
+                <a href="" class="iteam" id="AS-btn" onmouseover="showContinent()">亚洲</a>
+                <a href="" class="iteam" id="NA-btn" onmouseover="showContinent()">北美洲</a>
+                <a href="" class="iteam" id="OA-btn" onmouseover="showContinent()">大洋洲</a>
+                <a href="" class="iteam" id="SA-btn" onmouseover="showContinent()">南美洲</a>
+                <a href="" class="iteam" id="AF-btn" onmouseover="showContinent()">非洲</a>
+            </div>
+            <div class="dstn-detail">
                 <hr>
                 <div id="HOT" class="continent">
                     <a href="" class="iteam">法国</a>
