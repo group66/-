@@ -96,8 +96,9 @@
 }
 .travelmate figcaption a:hover{
     color: #339933;
-    text-decoration: underline;
+    border-bottom: 2px #339933 solid;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 footer{
     height:150px;
