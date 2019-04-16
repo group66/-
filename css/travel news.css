@@ -27,20 +27,21 @@
 .denglu{
     float: right;
 }
-#big{
-    width: 1600px;
-    height: 1100px;
-    border:solid 1px #C1C1C1;
-    margin:auto;
-    margin-bottom: 100px;
-}
 #location{
-    width: 1600px;
+    width: 85%;
     height: 40px;
     margin:10px auto; 
+}#big{
+    width: 85%;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
 }
 #center{
-    width: 1200px;
+    width: 77%;
     height: 1000px;
     margin: auto;
 }
@@ -50,7 +51,7 @@
     margin-bottom: 30px;
 }
 #center img{
-    width: 1200px;
+    width: 100%;
     height: 375px;
     margin-bottom: 40px;
 }

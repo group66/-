@@ -28,25 +28,27 @@
     float: right;
 }
 #location{
-    width: 1600px;
+    width: 85%;
     height: 40px;
     margin:10px auto; 
 }#big{
-    width: 1600px;
+    width: 85%;
     border:solid 1px #C1C1C1;
     margin:auto;
     overflow: hidden;
 }
 #big img{
-    
     margin-bottom: 40px;
 }
 #big p{
     text-indent: 2em;
     line-height: 30px;
 }
+#big .top{
+    width: 100%;
+}
 #user{
-    width: 1600px;
+    width: 100%;
     height: 150px;
     border:solid 1px #C1C1C1;
     margin:auto;
@@ -70,7 +72,7 @@
     float: left;
 }
 #center1{
-    width: 1600px;
+    width: 100%;
     height: 450px;
     border:solid 1px #C1C1C1;
     margin:auto;
@@ -81,7 +83,7 @@ h2{
     
 }
 #tiji{
-    width: 1500px;
+    width: 96%;
     height: 300px;
     margin:auto;
 }
@@ -93,13 +95,13 @@ h2{
     font-size: 21px;
 }
 #center2{
-    width: 1600px;
+    width: 100%;
     height: 730px;
     border:solid 1px #C1C1C1;
     margin:auto;
 }
 #plan{
-    width: 1500px;
+    width: 96%;
     height: 700px;
     margin:auto;
 }
@@ -111,13 +113,13 @@ h2{
     font-size: 21px;
 }
 #center3{
-    width: 1600px;
+    width: 100%;
     height: 150px;
     border:solid 1px #C1C1C1;
     margin:auto;
 }
 #day{
-    width: 1500px;
+    width: 96%;
     height: 100px;
     margin:auto;
 }
