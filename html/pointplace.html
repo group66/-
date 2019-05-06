@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title></title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <style>
         * {
             list-style: none;
@@ -243,6 +244,7 @@
 </head>
 
 <body>
+    <div id="app">
         <div class="top">
                 <header>
                     <nav>
@@ -263,6 +265,7 @@
         <div id="input">
         <input id="search" type="text" value="日 本" ><button onclick="window.location.href='city.html'">搜索</button>
     </div>
+   
     </div>
     <h1>热门城市推荐</h1>
     <div class="top_nav_two">
@@ -426,6 +429,7 @@
                     ©寻趣游 
             </footer>
         </div>
+        </div>
 
     <script>
         var topNavTwo = document.getElementsByClassName("top_nav_two")[0],
@@ -465,5 +469,14 @@
     </script>
 
 </body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+    })
+</script>
 
 </html>
