@@ -1,0 +1,157 @@
+
+#menu{
+    background-color:#000;
+    color:#FFF;
+    background-size:cover;
+    width:100%;		
+    }
+.test{
+    float:left;
+    margin-left:50px;
+    margin-right:100px;
+    margin-top:11px;
+    }
+#menu ul li{
+    display:inline-block;
+    margin-top:16px;
+    margin-bottom:17px;
+    }
+#menu ul li a{
+    padding:45px;
+    text-decoration: none;
+    color:#CCC;
+    }
+#menu ul li a:hover{
+    color:#FFF;
+    text-decoration: none;
+    }
+.denglu{
+    float: right;
+}
+#location{
+    width: 85%;
+    height: 40px;
+    margin:10px auto; 
+}
+#location a{
+    text-decoration: none;
+    color: #000;
+}
+#location a:hover{
+    color: #55AA77;
+    text-decoration: none;
+}
+#big{
+    width: 85%;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+    overflow: hidden;
+}
+#big img{
+    margin-bottom: 40px;
+}
+#big p{
+    text-indent: 2em;
+    line-height: 30px;
+}
+#big .top{
+    width: 100%;
+}
+#user{
+    width: 100%;
+    height: 150px;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+    margin-top: -45px;
+}
+.two{
+    padding-top:10px; 
+    display: block;
+    float: left;
+}
+#user p{
+    display: inline-block;
+    line-height: 25px;
+    margin-top: 60px;
+}
+
+.six{
+    float: left;
+}
+#dianzanbox{
+    width: 73px;
+    height: 100px;
+    float: right;
+    margin: 30px;
+    display:inline-block;
+}
+#dianzantupian{
+    width: 73px;
+    height: 70px;
+    display: inline-block;
+}
+#dianzan{
+    width: 73px;
+    height: 30px; 
+    text-align: center;
+    
+    display:inline-block;
+    position: relative;
+    top: -30px;
+}
+#center1{
+    width: 100%;
+    height: 500px;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+}
+h2{
+    margin-top: 60px;
+    text-align: center;
+    
+}
+#tiji{
+    width: 96%;
+    height: 300px;
+    margin:auto;
+}
+.tj1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.tj2{
+    font-size: 21px;
+    padding: 10px;
+}
+#center2{
+    width: 100%;
+    height: 730px;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+}
+#plan{
+    width: 96%;
+    height: 700px;
+    margin:auto;
+}
+.plan1{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.plan2{
+    font-size: 21px;
+    
+}
+#center3{
+    width: 100%;
+    height: 150px;
+    border:solid 1px #C1C1C1;
+    margin:auto;
+}
+#day{
+    width: 96%;
+    height: 100px;
+    margin:auto;
+}
